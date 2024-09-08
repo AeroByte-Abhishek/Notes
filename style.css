@@ -76,4 +76,16 @@
     z-index: 99999999; /* so that it stays on top of all other elements */
   }
 
+
+@media (max-width: 768px) {
+    .input-box{
+    max-width: 400px;
+}
+}
+
+@media (max-width: 480px) {
+    .input-box{
+    max-width: 250px;
+}
+}
   
